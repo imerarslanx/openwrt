@@ -7,7 +7,7 @@
 set -e
 
 OPENWRT_URL=https://github.com/openwrt/openwrt.git
-OPENWRT_COMMIT=44b73b738d18e424d86a34be3fb1d93cf3d718d6   # openwrt-25.12
+OPENWRT_COMMIT=openwrt-25.12
 
 TOP=$(cd "$(dirname "$0")" && pwd)
 JOBS="${1:-$(nproc)}"
